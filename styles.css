@@ -1,0 +1,132 @@
+/* Reset some default styles for better consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    background-image: url(''); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar img {
+    width: 100px;
+    cursor: pointer;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar li {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 100px 50px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Call-to-action styles */
+.cta {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cta input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.cta button {
+    padding: 10px;
+    background-color: #e50914;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    background-color: #000;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #757575;
+    margin: 0 10px;
+}
+
+/* Responsive styles (adjust as needed) */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 20px 20px;
+    }
+
+    .navbar ul {
+        gap: 10px;
+    }
+
+    .navbar li {
+        font-size: 0.9rem;
+    }
+
+    .hero {
+        padding: 80px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
